@@ -64,7 +64,7 @@
                                     <constraint firstAttribute="width" secondItem="pva-nE-AA7" secondAttribute="height" multiplier="141:77" id="C5q-KR-5NZ"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingrese el ISBN del libro a buscar... " textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="COT-9m-cUh" userLabel="ISBN TextView">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="84-8130-123-X" borderStyle="roundedRect" placeholder="Enter the ISBN of the book to find..." textAlignment="center" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="COT-9m-cUh" userLabel="ISBN TextView">
                                 <rect key="frame" x="0.0" y="250" width="600" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation" returnKeyType="search"/>
@@ -115,12 +115,12 @@
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="tKj-CL-F5I"/>
                                 <exclude reference="IoZ-Xk-qvh"/>
                                 <exclude reference="XVM-uv-R9u"/>
                                 <exclude reference="Yu5-vu-Q58"/>
                                 <exclude reference="kDi-NS-Ye6"/>
                                 <exclude reference="ldh-sJ-OBv"/>
-                                <exclude reference="tKj-CL-F5I"/>
                             </mask>
                         </variation>
                         <connections>
